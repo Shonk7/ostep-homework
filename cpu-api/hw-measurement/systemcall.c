@@ -7,7 +7,7 @@
 int main() {
     int fd = open("/dev/zero", O_RDONLY);
     char buf[1];
-    int N = 1000000;
+    int N = 100000;
 
     struct timeval start, end;
     gettimeofday(&start, NULL);
